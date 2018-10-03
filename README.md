@@ -5,6 +5,7 @@ For Windows:
 2) Right click and edit ssb-interop.js file
 3) Paste the following code at the bottom:
 
+```
 document.addEventListener('DOMContentLoaded', function() {
   $.ajax({
     url: 'https://cdn.rawgit.com/laCour/slack-night-mode/master/css/raw/black.css',
@@ -13,3 +14,4 @@ document.addEventListener('DOMContentLoaded', function() {
      }
    });
 });
+```

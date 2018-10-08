@@ -8,7 +8,7 @@ For Windows:
 ```
 document.addEventListener('DOMContentLoaded', function() {
   $.ajax({
-    url: 'https://cdn.rawgit.com/laCour/slack-night-mode/master/css/raw/black.css',
+    url: 'https://cdn.rawgit.com/TheSpitefulOctopus/SlackTheme/9903b00f/customDark.css',
            success: function(css) {
        $("<style></style>").appendTo('head').html(css);
      }

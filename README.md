@@ -15,3 +15,4 @@ document.addEventListener('DOMContentLoaded', function() {
    });
 });
 ```
+4) Save && Restart Slack
